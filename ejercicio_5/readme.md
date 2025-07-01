@@ -3,20 +3,6 @@
 ✅ Consigna:
 Objetivo: Evaluar ojo técnico y capacidad para identificar problemas comunes.
 
-Observá el siguiente fragmento de HTML y JS. Hay al menos 3 errores o mejoras que podrías sugerir.
-
-<button id="btnEnviar">Enviar</button>
-
-<script>
-document.getElementByID("btnEnviar").addEventlistener("click", function() {
-  consolelog("Botón presionado")
-})
-</script>
-
-1. Identificá los errores.
-2. Explicá por qué pueden causar problemas.
-3. Proponé la versión corregida.
-
 ✔️ Cómo abordé el problema:
 En primer lugar, analicé el código planteado. Luego me encargué de corregirlo y de pensar en formas de mejorarlo. Finalmente, lo dejé documentado con sus formas y errores correspondientes.
 
