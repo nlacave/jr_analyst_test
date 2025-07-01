@@ -1,4 +1,4 @@
-# Evaluación Técnica – Tagging & Measurement Analyst Jr
+# Evaluación Técnica
 
 > Cada ejercicio se encuentra en su propia carpeta y contiene el código y explicación correspondiente.
 ---
