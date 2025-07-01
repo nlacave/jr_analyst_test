@@ -1,6 +1,5 @@
 # 🧠 Ejercicio 5 – Detección de errores y mejoras
 
-✅ Consigna:
 Objetivo: Evaluar ojo técnico y capacidad para identificar problemas comunes.
 
 ✔️ Cómo abordé el problema:
