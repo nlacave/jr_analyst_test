@@ -1,0 +1,45 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*~
+*.bak
+
+# Archivos de Office o de texto temporales
+~$*
+
+# Entornos virtuales de Python
+venv/
+.env/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Archivos de Jupyter o notebooks checkpoints
+.ipynb_checkpoints
+
+# Archivos de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos de salida comunes
+*.csv
+*.xlsx
+*.zip
+
+# Archivos Markdown temporales o de preview
+*.md.html
+*.md.pdf
+
+# Archivos de Python bytecode
+*.pyo
+*.pyd
+
+# Archivos de sistema Linux
+*.out
+*.o
+*.so

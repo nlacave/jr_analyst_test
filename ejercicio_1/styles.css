@@ -1,0 +1,122 @@
+/* Estilos base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#titulo {
+  font-size: 2.5rem;
+  color: #0077cc;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f0f8ff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Formulario */
+
+form fieldset {
+  border: none;
+  padding: 0;
+}
+
+form legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0077cc;
+}
+
+/* Inputs y Textarea */
+form div {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+
+.camposVacios {
+    input:invalid,
+    textarea:invalid {
+    border-color: red;
+    background-color: #ffe6e6;
+}   
+}
+
+/* Botón */
+button[type="submit"] {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  #titulo {
+    font-size: 2rem;
+  }
+
+  form legend {
+    font-size: 1.25rem;
+  }
+}

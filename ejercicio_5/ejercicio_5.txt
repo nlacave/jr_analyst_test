@@ -1,0 +1,50 @@
+Código con Errores:
+
+<button id="btnEnviar">Enviar</button>
+
+<script>
+  document.getElementByID("btnEnviar").addEventlistener("click", function () {
+    consolelog("Botón presionado");
+  });
+</script>
+
+Errores y su causa:
+1. Uncaught TypeError: document.getElementByID is not a function: 
+El document.getElementByID se debería escribir con d minúscula en el Id, ya que si no 
+producirá un error de sintaxis.
+
+2. Uncaught TypeError: document.getElementById(...).addEventlistener is not a function:
+El addEventlistener debería escribirse con L mayúscula, ya que si no, no lo detectará JavaScript y será
+otro error de sintaxis.
+
+3. Uncaught ReferenceError: consolelog is not defined:
+El consolelog debería escribirse con un punto intermedio entre ambas palabras, ya que si no lo
+hacemos, el lenguaje no reconocerá que estamos llamando al método log() del objeto console.
+
+
+Mejoras que se podrían hacer:
+- Utilizar arrow function en vez de function declaration en la función callback
+para adaptarse al estandar actual de ES6.
+- Usar querySelector en vez de getElementById, ya que es más moderno y consistente. No sirve unicamente
+para seleccionar por ID sino también para selectores avanzados como clases o atributos.
+- Validar si existe el botón en el DOM antes de seleccionarlo utilizando optional chaining (?).
+
+Versión corregida del código:
+
+<button id="btnEnviar">Enviar</button>
+
+<script>
+  document.getElementById("btnEnviar").addEventListener("click", function () {
+    console.log("Botón presionado");
+  });
+</script>
+
+Versión mejorada:
+
+<button id="btnEnviar">Enviar</button>
+
+<script>
+  document.querySelector("#btnEnviar")?.addEventListener("click", () => {
+    console.log("Botón presionado");
+  });
+</script>
