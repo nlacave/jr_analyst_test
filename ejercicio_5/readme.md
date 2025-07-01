@@ -5,8 +5,6 @@ Objetivo: Evaluar ojo técnico y capacidad para identificar problemas comunes.
 
 Observá el siguiente fragmento de HTML y JS. Hay al menos 3 errores o mejoras que podrías sugerir.
 
-<!-- markdownlint-disable MD033 -->
-
 <button id="btnEnviar">Enviar</button>
 
 <script>
