@@ -29,4 +29,4 @@ En cada ejercicio se detalla:
 Para correr los scripts de Python o ver los ejercicios localmente:
 
 - Python 3.x
-- Pandas (para ejercicio 4):  
+- Pandas (para ejercicio 4)
